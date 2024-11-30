@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1 id="home-link" onclick="scrollToTop()">Parnavee Khochare</h1>
+            <p class="designation">Graphic Desinger</p>
+        </div>
+        <div class="header-right">
+            <a href="about.html" class="about-link">About Me</a>
+        </div>
+    </header>
+    <main>
+        <section class="image-gallery">
+            <div class="image-item" onclick="openModal('image1.jpg', '( This social media post for Ananti Creation celebrates International Yoga Day with a peaceful and in spiring design. It features a woman posing gracefully in a yoga asana representing balance and mindfulness. Behind her is the Ananti Creation logo blending seamlessly into the scene to show the brands dedication to creating meaningful events The post reflects the spirit of yoga while showcasing Ananti Creations creativity and focus on wellness)')">
+                <img src="/Users/parnaveekhochare/Desktop/parnavee code 2 /image1.jpg" alt="Description 1">
+                <figcaption></figcaption>
+            </div>
+            <div class="image-item" onclick="openModal('image2.jpg', '( This IKEA social media post features a trendy orange chair with the fun tagline Fancy enough to impress your in-laws. It suggests that the chair is stylish and modern, making it perfect for anyone wanting to impress guests or add a pop of color to their home. The playful message shows that this piece is not only functional but also a bold design choice that can elevate any room)')">
+                <img src="/Users/parnaveekhochare/Desktop/parnavee code 2 /image2.jpg" alt="Description 2">
+                <figcaption></figcaption>
+            </div>
+            <div class="image-item" onclick="openModal('image3.jpg', '(This branding poster for Better Splash Energy Drink combines the idea of a healthy lifestyle with the beauty of Romanticism. The fonts have a classic, elegant feel, inspired by the artistic style of that era. The photo highlights natural beauty and energy, reflecting the Romantic focus on nature and emotion. Together, the design shows that Better Splash is more than just an energy drink—it’s about living a healthy and inspiring life)')">
+                <img src="/Users/parnaveekhochare/Desktop/parnavee code 2 /image3.jpg"alt="Description 3">
+                <figcaption></figcaption>
+            </div>
+            <div class="image-item" onclick="openModal('image4.jpg', '(The newspaper cover featuring a woman with a charka symbolizes Indias rich cultural heritage and the legacy of Khadi representing self-reliance and sustainable fashion. Her attire, likely a traditional sari or lehenga, reflects the diversity of Indian fashion, showcasing regional textiles like Banarasi silks and Bandhani. The design celebrates the fusion of tradition with modern fashion, emphasizing Indias craftsmanship and commitment to sustainability)')">
+                <img src="/Users/parnaveekhochare/Desktop/parnavee code 2 /image4.jpg" alt="Description 3">
+                <figcaption></figcaption>
+            </div>
+            <div class="image-item" onclick="openModal('image5.jpg', '(This branding poster for Ladurée Ice Cream showcases the brands royalty and elegance, inspired by the opulent Rococo theme. With soft pastels, intricate floral details, and luxurious design, it reflects sophistication and indulgence, positioning Ladurée as a symbol of timeless beauty and refined taste )')">
+                <img src="/Users/parnaveekhochare/Desktop/parnavee code 2 /image5.jpg" alt="Description 3">
+                <figcaption></figcaption>
+            </div>
+            <div class="image-item" onclick="openModal('image6.jpg', '(Swarovski unveils its latest earring design in a captivating post showcasing their sparkling brilliance and intricate details. The sleek and elegant design is highlighted against a soft, luminous backdrop, drawing attention to the earrings dazzling crystals. The message is simple yet impactful, inviting viewers to add a touch of sophistication to their style with this new addition to the collection. Perfect for any occasion, these earrings redefine elegance with Swarovskis signature sparkle.)')">
+                <img src="/Users/parnaveekhochare/Desktop/parnavee code 2 /image6.jpg" alt="Description 3">
+                <figcaption></figcaption>
+            </div>
+            <div class="image-item" onclick="openModal('image7.jpg', '(The Vogue magzine cover, with the theme Turning heads with the Latest Fashion ,features a stunning image of a model wearing a fashionable outfit that highlights the lates trends. The phot has been carefully retouched to enhancethe models look and the details of the clothing, making it bold and eye catching. The cover perfectly captures the excitment of modern fashion, showcasing how these new styles make a strong, confident statement. )')">
+                <img src="/Users/parnaveekhochare/Desktop/parnavee code 2 /image7.jpg" alt="Description 3">
+                <figcaption></figcaption>
+            </div>
+            <div class="image-item" onclick="openModal('image8.jpg', '(This branding visual for Ladurée Ice Cream features the logo and ice cream tub to highlight the brand’s elegance and quality. The packaging has a stylish design with soft colors and fine details that reflect Ladurée’s luxury and charm. By showcasing the logo prominently, it reinforces the brand’s reputation for being a premium and sophisticated choice. The simple and classy presentation makes the product stand out and appeal to those who value indulgence and refinement.)')">
+                <img src="/Users/parnaveekhochare/Desktop/parnavee code 2 /image8.jpg" alt="Description 3">
+                <figcaption></figcaption>
+            </div>
+            <div class="image-item" onclick="openModal('image9.jpg', '(The vinyl cover for Coldplays Music of the Spheres could depict a luminous giant wheel representing the universe, with glowing spokes radiating from a radiant core to symbolize the harmony of cosmic music. Surrounding the wheel are vibrant, backlit spheres representing planets, each with unique colors reflecting the album’s themes and songs. The design evokes a celestial symphony, aligning with the albums title and lyrical exploration  and universal wonder..)')">
+                <img src="/Users/parnaveekhochare/Desktop/parnavee code 2 /image9.jpg" alt="Description 3">
+                <figcaption></figcaption>
+
+           
+        </section>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="">
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
